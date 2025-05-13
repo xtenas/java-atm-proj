@@ -5,6 +5,9 @@ class BankAccount {
 
         public BankAccount(String accountNumber, double intialBalance){
 
+                this.accountNumber=accountNumber;
+                this.balance=intialBalance;
+
         }
 
 }
